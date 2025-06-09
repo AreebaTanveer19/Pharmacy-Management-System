@@ -1,0 +1,67 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+.content {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 90px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 8px;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+}
+
+table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.totals {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.totals p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.totals p span {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+}
